@@ -14,7 +14,7 @@ const Products = () => {
 					<p>Loading....</p>
 				</div>
 			) : (
-				<div className="container mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:gap-4 gap-2 h-full py-8">
+				<div className="container lg:mx-auto px-4 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:gap-6 gap-4 h-full py-8">
 					{products.map((product) => (
 						<div className="" key={product.id}>
 							<ProductDisplay product={product} />

@@ -16,7 +16,7 @@ const ConfirmationPage = () => {
 			<h4 className="mb-4">You will receive an email confirmation shortly.</h4>
 			<div className="w-full flex justify-center">
 				<button
-					className="border-b w-24 focus:outline-none hover:border-black"
+					className="border-b focus:outline-none hover:border-black"
 					onClick={handleClick}
 				>
 					Back to home

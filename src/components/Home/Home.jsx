@@ -14,7 +14,7 @@ const Home = () => {
 		<div className="bg-gray-50 relative">
 			<div className="relative z-0 h-52 lg:h-96">
 				<Carousel
-					showArrows={true}
+					showArrows={false}
 					showStatus={false}
 					showThumbs={false}
 					stopOnHover={false}

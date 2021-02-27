@@ -6,7 +6,7 @@ const ProductDisplay = ({ product }) => {
 	const { handleAddToCart } = useContext(ProductContext);
 
 	return (
-		<div className="bg-white rounded-lg pb-4 relative transition duration-500 ease-in-out transform hover:scale-105">
+		<div className="bg-white rounded-lg pb-4 relative lg:transition lg:duration-500 lg:ease-in-out lg:transform lg:hover:scale-105">
 			<Link to={`/home/product/${product.id}`}>
 				<div className="border-b">
 					<img

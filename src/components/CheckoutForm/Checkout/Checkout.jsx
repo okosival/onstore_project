@@ -1,6 +1,6 @@
 import React from "react";
 import { MultiStepForm, Step } from "react-multi-form";
-import AddressForm from "./AddressForm";
+import AddressForm from "../AddressForm";
 import Payment from "../Payment";
 import ConfirmationPage from "../ConfirmationPage";
 import { NavLink } from "react-router-dom";
