@@ -22,7 +22,7 @@ const Home = () => {
 					transitionTime={800}
 					autoPlay={true}
 					infiniteLoop={true}
-					dynamicHeight={false}
+					dynamicHeight={true}
 				>
 					<div className="lg:flex lg:items-center lg:justify-center">
 						{/* carousel display for large screens. hidden in sm and medium screens */}
